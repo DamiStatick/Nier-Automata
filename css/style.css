@@ -649,4 +649,9 @@ a{
         width: 280px;
         height: 146px;
     }
+    .parrafo6{
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 125%;
+    }
 }
