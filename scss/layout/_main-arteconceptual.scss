@@ -1,0 +1,7 @@
+.contenedor4{
+    background-color: map-get($colores , fondo2);
+    @include grid (1fr, repeat(47), center)
+}
+.img7{
+    justify-self: center;
+}

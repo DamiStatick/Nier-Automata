@@ -1,0 +1,19 @@
+.contenedor2{
+    text-align: center;
+    background-color: map-get($colores , fondo1);
+};
+.h1{
+    @include flex (space-evenly, 50px)
+};
+.parrafo1{
+    @include flex1 (center, 30px, underline, normal)
+};
+.parrafo2{
+    @include flex2 (center, 20px, 125%)
+}
+.parrafo3{
+    @include flex1 (center, 22px, underline, normal)
+}
+.parrafo4{
+    @include flex1 (center, 20px, underline, normal)
+}

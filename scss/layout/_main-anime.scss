@@ -1,0 +1,224 @@
+.contenedor9{
+    width: 100%;
+    text-align: center;
+    background-color: map-get($colores, fondo3);
+}
+.grid-container{
+    @include grid1 (100%, 1fr 1fr 1fr, repeat(26, 95px), center)
+}
+.grid-item1{
+    background-color: map-get($colores, fondo4);
+    @include font1 (underline, bold, center,)
+}
+.grid-item2{
+    background-color: map-get($colores, fondo4);
+    @include font1 (underline, bold, none)
+}
+.grid-item3{
+    background-color: map-get($colores, fondo4);
+    @include font1 (underline, bold, none)
+}
+.grid{
+    grid-column-start: 1;
+    justify-self: center;
+    align-self: center;
+}
+.grid1{
+    width: 200px;
+    height: 95px;
+    grid-column-start: 1;
+    justify-self: center;
+}
+.text{
+    @include grid2 (2, 2, center, 20px)
+}
+.text1{
+    @extend .text;
+    grid-row-start: 3;
+}
+.text2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    align-self: flex-end;
+    font-size: 20px;
+}
+.text3{
+    @extend .text;
+    grid-row-start: 6;
+}
+.text4{
+    @extend .text;
+    grid-row-start: 7;
+}
+.text5{
+    @extend .text;
+    grid-row-start: 8;
+}
+.text6{
+    @extend .text;
+    grid-row-start: 9;
+}
+.text7{
+    @extend .text;
+    grid-row-start: 10;
+}
+.text8{
+    @extend .text;
+    grid-row-start: 11;
+}
+.text9{
+    @extend .text;
+    grid-row-start: 12;
+}
+.text10{
+    @extend .text;
+    grid-row-start: 13;
+}
+.text11{
+    @extend .text;
+    grid-row-start: 14;
+}
+.text12{
+    @extend .text;
+    grid-row-start: 15;
+}
+.text13{
+    @extend .text;
+    grid-row-start: 16;
+}
+.text14{
+    @extend .text;
+    grid-row-start: 17;
+}
+.text15{
+    @extend .text;
+    grid-row-start: 18;
+}
+.text16{
+    @extend .text;
+    grid-row-start: 19;
+}
+.text17{
+    @extend .text;
+    grid-row-start: 20;
+}
+.text18{
+    @extend .text;
+    grid-row-start: 21;
+}
+.text19{
+    @extend .text;
+    grid-row-start: 22;
+}
+.text20{
+    @extend .text;
+    grid-row-start: 23;
+}
+.text21{
+    @extend .text;
+    grid-row-start: 24;
+}
+.text22{
+    @extend .text;
+    grid-row-start: 25;
+}
+.text23{
+    @extend .text;
+    grid-row-start: 26;
+}
+
+.name{
+    @include grid2 (3, 2, center, 20px)
+}
+.name1{
+    @extend .name;
+    grid-row-start: 3;
+}
+.name2{
+    @extend .name;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.name3{
+    @extend .name;
+    grid-row-start: 6;
+}
+.name4{
+    @extend .name;
+    grid-row-start: 7;
+}
+.name5{
+    @extend .name;
+    grid-row-start: 8;
+}
+.name6{
+    @extend .name;
+    grid-row-start: 9;
+}
+.name7{
+    @extend .name;
+    grid-row-start: 10;
+}
+.name8{
+    @extend .name;
+    grid-row-start: 11;
+}
+.name9{
+    @extend .name;
+    grid-row-start: 12;
+}
+.name10{
+    @extend .name;
+    grid-row-start: 13;
+}
+.name11{
+    @extend .name;
+    grid-row-start: 14;
+}
+.name12{
+    @extend .name;
+    grid-row-start: 15;
+}
+.name13{
+    @extend .name;
+    grid-row-start: 16;
+    grid-row-end: 17;
+}
+.name14{
+    @extend .name;
+    grid-row-start: 18;
+}
+.name15{
+    @extend .name;
+    grid-row-start: 19;
+}
+.name16{
+    @extend .name;
+    grid-row-start: 20;
+}
+.name17{
+    @extend .name;
+    grid-row-start: 21;
+}
+.name18{
+    @extend .name;
+    grid-row-start: 22;
+}
+.name19{
+    @extend .name;
+    grid-row-start: 23;
+}
+.name20{
+    @extend .name;
+    grid-row-start: 24;
+}
+.name21{
+    @extend .name;
+    grid-row-start: 25;
+}
+.name22{
+    @extend .name;
+    grid-row-start: 26;
+}

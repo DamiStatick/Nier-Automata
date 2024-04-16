@@ -1,0 +1,21 @@
+.bg-img{
+    background-color: map-get($colores, logo);
+    color: map-get($colores, espacio);
+    text-align: center;
+};
+
+.navBar {
+    @include flex0 (space-evenly, wrap);
+};
+ul li a{
+    color: map-get($colores, letra);
+};
+.navBar a{
+    float: left;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

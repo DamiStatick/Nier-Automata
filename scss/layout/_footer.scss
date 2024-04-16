@@ -1,0 +1,31 @@
+.contenedor{
+    text-align: center;
+    background-color: map-get($colores, espacio );
+}
+.contact{
+    text-align: center;
+    color: map-get($colores, letra );
+}
+.parrafo{
+    color: map-get($colores, letra );
+}
+.img2{
+    width: map-get($tamaños , redes );
+    height: map-get($tamaños, redes1 );
+}
+.img3 {
+    width: map-get($tamaños , redes2 );
+    height: map-get($tamaños, redes3 );
+}
+.img4 {
+    width: map-get($tamaños , redes4 );
+    height: map-get($tamaños, redes5 );
+}
+.img5 {
+    width: map-get($tamaños , redes6 );
+    height: map-get($tamaños, redes7 );
+}
+.img6 {
+    width: map-get($tamaños , redes8 );
+    height: map-get($tamaños, redes9 );
+}

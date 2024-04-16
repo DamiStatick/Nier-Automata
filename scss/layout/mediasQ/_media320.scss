@@ -1,0 +1,23 @@
+@media (max-width:320px){
+    .navBar{
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    .img9{
+        width: 90%;
+    }
+    .grid1{
+        width: 100%;
+    }
+    .name, .name1, .name2, .name3, .name4, .name5, .name6, .name7, .name8, .name9, .name10, .name11, .name12, .name13, .name14, .name15, .name16, .name17, .name18, .name19, .name20, .name21, .name22{
+        font-size: 12px;
+    }
+    .text, .text1, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .text21, .text22, .text23{
+        font-size: 12px;
+    }
+    .text2{
+        font-size: 12px;
+    }
+}

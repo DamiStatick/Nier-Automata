@@ -1,0 +1,12 @@
+.img{
+    @include background (url, center, no-repeat, cover, 100%)
+};
+.img1{
+    @include text (center, 1700px, 850px)
+};
+.premios{
+    @include font (underline, 50px, 150%)
+}
+.img{
+    @include letras (center, 20px, bold)
+}

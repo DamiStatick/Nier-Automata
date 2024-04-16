@@ -1,0 +1,80 @@
+@mixin grid($col, $rows, $text){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $rows;
+    text-align: $text;
+}
+@mixin grid1 ($width, $col, $rows, $text){
+    display: grid;
+    width: $width;
+    grid-template-columns: $col;
+    grid-template-rows: $rows;
+    text-align: $text;
+}
+@mixin grid2 ($col, $row, $align, $font){
+    grid-column-start: $col;
+    grid-row-start: $row;
+    align-self: $align;
+    font-size: $font;
+}
+
+
+@mixin font1 ($text, $font, $justify){
+    text-decoration: $text;
+    font-weight: $font;
+    justify-content: $justify;
+}
+
+@mixin flex0($justify, $wrap) {
+    display: flex;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+};
+
+@mixin background($url, $position, $repeat, $size, $width){
+    background: url(../assets/img/the-flooded-city-nier-automata.png);
+    background-position: $position;
+    background-repeat: $repeat;
+    background-size: $size;
+    width: $width;
+}
+@mixin text ($text, $width, $height){
+    text-align: $text;
+    width: $width;
+    height: $height;
+}
+@mixin font($text, $font, $line){
+    text-decoration: $text;
+    font-size: $font;
+    line-height: $line;
+}
+@mixin letras($text, $font, $weight) {
+    text-align: $text;
+    font-size: $font;
+    font-weight: $font;
+}
+@mixin flex($justify, $font){
+    display: flex;
+    justify-content: $justify;
+    font-size: $font;
+}
+@mixin flex1($justify, $font, $text, $line){
+    display: flex;
+    justify-content: $justify;
+    font-size: $font;
+    text-decoration: $text;
+    line-height: $line;
+}
+@mixin flex2($justify, $font, $line){
+    display: flex;
+    justify-items: $justify;
+    font-size: $font;
+    line-height: $line;
+}
+@mixin text1 ($text, $font, $line){
+    text-align: $text;
+    font-weight: $font;
+    line-height: $line;
+}
+
+

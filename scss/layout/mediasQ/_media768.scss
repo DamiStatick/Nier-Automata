@@ -1,0 +1,18 @@
+@media (max-width:768px){
+    .premios{
+        font-size: 30px;
+    }
+    .img{
+        font-size: 15px;
+    }
+    .logo{
+        background-color: map-get($colores, logo);
+    }
+    .contenedor4{
+        background-color: map-get($colores, fondo2);
+    }
+    .img7{
+        width: 90%;
+        height: 90%;
+    }
+}

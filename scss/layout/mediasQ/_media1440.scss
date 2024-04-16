@@ -1,0 +1,10 @@
+@media (max-width:1440px){
+    .logo{
+        background-color: map-get($colores, logo);
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        height: 100%;
+    }
+}
