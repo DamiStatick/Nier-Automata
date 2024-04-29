@@ -7,6 +7,7 @@
     color: map-get($colores, letra );
 }
 .parrafo{
+    line-height: 150%;
     color: map-get($colores, letra );
 }
 .img2{
@@ -18,8 +19,8 @@
     height: map-get($tamaños, redes3 );
 }
 .img4 {
-    width: map-get($tamaños , redes4 );
-    height: map-get($tamaños, redes5 );
+    width: 150px;
+    height: 150px;
 }
 .img5 {
     width: map-get($tamaños , redes6 );

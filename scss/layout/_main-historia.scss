@@ -1,8 +1,11 @@
 .contenedor8{
     background-color: map-get($colores, fondo );
-    @include text1 (center, bold, 125%)
+    @include text1 (center, bold, 125%);
+    font-family: "Jura", sans-serif;
+    line-height: 190%;
 }
 .historia{
     text-align: center;
     text-decoration: underline;
+    font-family: "Jura", sans-serif;
 }

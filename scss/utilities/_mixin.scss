@@ -1,8 +1,9 @@
-@mixin grid($col, $rows, $text){
+@mixin grid($col, $rows, $paddding, $gap){
     display: grid;
     grid-template-columns: $col;
     grid-template-rows: $rows;
-    text-align: $text;
+    padding: $paddding;
+    gap: $gap;
 }
 @mixin grid1 ($width, $col, $rows, $text){
     display: grid;
